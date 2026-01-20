@@ -5,7 +5,7 @@ const DashboardLayout = ({children}) => {
   return (
     <div>
         <AppHeader/>
-     <div className='p-10 mt-20 md:px-20 lg:px-32 xl:px-48'>
+     <div className='p-10 mt-14 md:px-20 lg:px-32 xl:px-48'>
          {children}
      </div>
     </div>
