@@ -7,6 +7,13 @@ export default defineSchema({
         name : v.string(),
         email: v.string(),
         credits: v.number(),
-        subscriptId:v.optional(v.string())
+        subscriptionId:v.optional(v.string())
+    }),
+
+    DiscussionRoom: defineTable({
+        ExpertsList : v.string(),
+        topic: v.string(),
+        expertName : v.string(),
+        conversation: v.optional(v.string())
     })
 })
